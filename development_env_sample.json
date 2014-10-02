@@ -1,0 +1,23 @@
+{
+	"DB_HOST"      : "db_host",
+	"DB_USER"      : "db_user_name",
+	"DB_PASSWORD"  : "db_password",
+	"DB_NAME"      : "db_name",
+	"TABLE_PREFIX" : "wp_",
+	"WP_DEBUG"     : true,
+
+	"live": {
+		"url" : "example.com",
+		"sql" : "db_dump_live"
+	},
+
+	"dev": {
+		"url" : "dev.example.com",
+		"sql" : "db_dump_dev"
+	},
+
+	"staging": {
+		"url" : "staging.example.com",
+		"sql" : "db_dump_staging"
+	}
+}
